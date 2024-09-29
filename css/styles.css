@@ -651,6 +651,7 @@ img {
 .button-close:hover,
 .button-close:focus {
   background-color: #404bbf;
+  border: none;
 }
 
 .button-close:hover .close-icon,
@@ -694,7 +695,7 @@ img {
 }
 
 .form-field-container {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .input-wrapper {
@@ -729,8 +730,9 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #2e2f42;
+  color: rgba(46, 47, 66, 0.4);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
 }
 
 .form-coment::placeholder {
@@ -766,6 +768,13 @@ img {
   cursor: pointer;
   fill: transparent;
   margin-right: 8px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-custom-checkbox:checked {
+  border: none;
 }
 
 .checkbox-label {
