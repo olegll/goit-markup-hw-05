@@ -695,7 +695,7 @@ img {
 }
 
 .form-field-container {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .input-wrapper {
@@ -751,6 +751,7 @@ img {
   background-color: #404bbf;
   border: 1px solid #404bbf;
   fill: #f4f4fd;
+  border: none;
 }
 
 .checkbox-input:focus + .checkbox-label > .form-custom-checkbox {
@@ -818,6 +819,10 @@ img {
 .form-submit-button:hover,
 .form-submit-button:focus {
   background-color: #404bbf;
+}
+
+.form-field-container-comment {
+  margin-bottom: 16px;
 }
 
 /*=================/modal window===========*/
